@@ -6,4 +6,8 @@ public class EmptyPageTest {
 		System.out.println("NEW Project");
 		
 	}
+	
+	public  void setup2(){
+		System.out.println("NEW Project 2 ");
+	}
 }
