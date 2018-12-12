@@ -22,4 +22,15 @@ public class EmptyPageTest {
 	public  void setup5(){
 		System.out.println("NEW Project 5 ");
 	}
+	public  void setup6(){
+		System.out.println("NEW Project 2 ");
+	}
+	
+	public  void setup7(){
+		System.out.println("NEW Project 4 ");
+	}
+	
+	public  void setup8(){
+		System.out.println("NEW Project 5 ");
+}
 }
