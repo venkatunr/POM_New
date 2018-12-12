@@ -10,4 +10,9 @@ public class EmptyPageTest {
 	public  void setup2(){
 		System.out.println("NEW Project 2 ");
 	}
+	
+	public  void setup3(){
+		System.out.println("NEW Project 2 ");
+	}
+	
 }
