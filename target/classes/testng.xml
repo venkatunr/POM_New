@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="POM Application Test Automation Test suite">
+  
+  <listeners>
+  <listener class-name ="pom.fb.qa.util.ExtentReporterNG" />
+  </listeners>
+  
+  <test name="Free CRM application test">
+      <classes>
+      <class name="pom.fb.qa.testcases.LoginTest"></class>
+      <class name="pom.fb.qa.testcases.HomePageTest"></class>
+      <class name="pom.fb.qa.testcases.ContactsPageTest"></class>    
+    </classes>
+    
+  </test> 
+</suite>
